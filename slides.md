@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: "images/IMG_0047.JPG"
+background: "/IMG_0047.JPG"
 highlighter: shikiji
 transition: fade-out
 lineNumbers: true
@@ -207,9 +207,8 @@ Also, HTML elements are valid:
 -->
 
 ---
-
-## class: px-20
-
+class: px-20
+---
 # Themes
 
 Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
@@ -235,8 +234,8 @@ theme: seriph
 </div>
 
 ---
-
-## preload: false
+preload: false
+---
 
 # Animations
 

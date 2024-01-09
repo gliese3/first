@@ -230,9 +230,6 @@ theme: seriph
 
 </div>
 
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
-
 ---
 preload: false
 ---

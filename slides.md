@@ -113,10 +113,8 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 <p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
 
 ---
-
 layout: image-right
 image: https://source.unsplash.com/collection/94734566/1920x1080
-
 ---
 
 # Code
@@ -356,6 +354,7 @@ graph TD
 B[Text] --> C{Decision}
 C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
+E -->|Three| G[Result 2]
 ```
 
 ```mermaid
@@ -415,28 +414,34 @@ database "MySql" {
 
 [Learn More](https://sli.dev/guide/syntax.html#diagrams)
 
----
-
-src: ./pages/multiple-entries.md
-hide: false
 
 ---
-
----
-
 layout: center
 class: text-center
-
 ---
 
 # Learn More
 
 [Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
 
----
-# Test slide
 
-<div class="bg-amber-50 border-l-4 border-orange p-4" role="alert">
-  <p class="font-bold text-amber-700">Be Warned</p>
-  <p class="font-bold text-amber-500">Something not ideal might be happening.</p>
-</div>
+---
+
+# Test slide
+<section class="grid grid-cols-3 gap-2">
+  <div class="bg-amber-50 border-l-4 border-s-orange-400 p-2 my-2">
+    <p class="font-bold text-amber-600">Be Warned</p>
+    <p class="text-amber-500">Something not ideal might be happening. Something not ideal might be happening. Something not ideal might be happening.</p>
+  </div>
+
+  <div class="bg-sky-100 border-l-4 border-s-sky-400 p-2 my-2">
+    <p class="font-bold text-sky-600">Be Warned</p>
+    <p class="text-sky-500">Something not ideal might be happening.</p>
+  </div>
+
+  <div class="bg-emerald-100 border-l-4 border-s-emerald-400 p-2 my-2">
+    <p class="font-bold text-emerald-600">Be Warned</p>
+    <p class="text-emerald-500">Something not ideal might be happening.</p>
+  </div>
+</section>
+
